@@ -14,7 +14,8 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://'.$_SERVER['SERVER_NAME'].'/dpassets/';
+
+$config['base_url']	= $_SERVER['SERVER_ADDR'] == '127.0.0.1' ? 'http://'.$_SERVER['SERVER_NAME'] : 'http://'.$_SERVER['SERVER_NAME'] . "/OfficeEquipmentManager";
 
 /*
 |--------------------------------------------------------------------------
