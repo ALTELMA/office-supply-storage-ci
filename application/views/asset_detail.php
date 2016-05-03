@@ -15,14 +15,14 @@
         	// LOAD IMAGE
 			if(!empty($assetData->assetFullPic)){
 				$assetImage = array(
-							'src' => base_url().'assets/images/asset_image/resize/'.$assetData->assetFullPic,
+							'src' => base_url().'assets/img/asset_image/resize/'.$assetData->assetFullPic,
 							'width' => 400,
 							'height' => 400,
 							'alt' => 'asset_resize_pic',
 							);
 			}else{
 				$assetImage = array(
-							'src' => base_url().'assets/images/asset_image/resize/no_image.gif',
+							'src' => base_url().'assets/img/templates/no_image.gif',
 							'width' => 400,
 							'height' => 400,
 							'alt' => 'asset_resize_pic',
@@ -148,13 +148,13 @@
 					
 					// CONFIG IMAGE
 					$edit = array(
-							'src' => base_url().'assets/images/templates/edit.gif',
+							'src' => base_url().'assets/img/templates/edit.gif',
 							'width' => 16,
 							'alt' => 'edit',
 							'title' => 'แก้ไข'
 							);
 					$del = array(
-							'src' => base_url().'assets/images/templates/del.gif',
+							'src' => base_url().'assets/img/templates/del.gif',
 							'width' => 16,
 							'alt' => 'edit',
 							'title' => 'ลบ'

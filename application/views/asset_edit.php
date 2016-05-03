@@ -1,9 +1,9 @@
-<div id="content">    
+<div id="content">
     <div class="pageHeader">
     	<div><h3 class="header"><?php echo ':: '.$title.' ::';?></h3></div>
         <div></div>
     </div>
-        
+
     <!-- DATA FORM ADD -->
     <div class="formData">
     	<form method="POST" enctype="multipart/form-data" action="<?php base_url().'asset/add'?>">
@@ -34,11 +34,11 @@
             <div class="formRow">
             	<span>รูปภาพทรัพย์สิน : </span>
                 <input type="file" name="asset_img">
-                <?php 
+                <?php
 					if(!empty($assetData->assetFullPic)){
 						$previewImg = array(
 									'class' => 'border',
-									'src' => base_url().'assets/images/asset_image/resize/'.$assetData->assetFullPic,
+									'src' => base_url().'assets/img/asset_image/resize/'.$assetData->assetFullPic,
 									'width' => 400,
 									'height' => 400,
 									'alt' => 'preview_asset_image'
@@ -46,7 +46,7 @@
 					}else{
 						$previewImg = array(
 									'class' => 'border',
-									'src' => base_url().'assets/images/asset_image/resize/no_image.gif',
+									'src' => base_url().'assets/img/templates/no_image.gif',
 									'width' => 400,
 									'height' => 400,
 									'alt' => 'preview_asset_image'
@@ -93,7 +93,7 @@
             </div>
             <div class="formRow">
                 <span>การอนุมัติข้อมูล :</span>
-                <input type="radio" name="IsApproved" value="1"> อนุมัติ 
+                <input type="radio" name="IsApproved" value="1"> อนุมัติ
                 <input type="radio" name="IsApproved" value="0"> ไม่อนุมัติ
             </div>
             <label>หมายเหตุ <span class="txt-comment">***ถ้ามี</span></label>

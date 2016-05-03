@@ -2,7 +2,7 @@
     <div class="pageHeader">
     	<?php
         	$pageHeaderIcon = array(
-							'src' => base_url().'assets/images/templates/'
+							'src' => base_url().'assets/img/templates/'
 							);
 		?>
     	<div class="left"><h3 class="header"><?php echo ':: '.$title.' ::';?></h3></div>

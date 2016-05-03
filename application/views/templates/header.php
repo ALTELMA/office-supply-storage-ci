@@ -22,7 +22,7 @@ echo link_tag($coreCSS);
 
 // JQUERY CSS
 $jqueryCSS = array(
-				'href' => base_url().'assets/js/jquery-ui-1.10.2.custom/css/redmond/jquery-ui-1.10.2.custom',
+				'href' => base_url().'assets/js/jquery-ui-1.10.2.custom/css/redmond/jquery-ui-1.10.2.custom.css',
 				'rel' => 'stylesheet',
 				'type' => 'text/css'
 			);
@@ -30,7 +30,7 @@ echo link_tag($jqueryCSS);
 
 // FAVICON
 $favicon = array(
-		'href' => 'assets/images/icons/favicon.ico',
+		'href' => 'assets/img/icons/favicon.ico',
 		'rel' => 'shortcut icon'
 		);
 echo link_tag($favicon);

@@ -14,8 +14,8 @@
 				foreach($subCategoryResult as $subCategory){
 					
 					// CONFIG IMAGE
-					$edit_icon = array('src' => base_url().'assets/images/templates/edit.gif', 'width' => 16, 'alt' => 'edit', 'title' => 'แก้ไข');
-					$del_icon = array('src' => base_url().'assets/images/templates/del.gif', 'width' => 16, 'alt' => 'del', 'title' => 'ลบ');
+					$edit_icon = array('src' => base_url().'assets/img/templates/edit.gif', 'width' => 16, 'alt' => 'edit', 'title' => 'แก้ไข');
+					$del_icon = array('src' => base_url().'assets/img/templates/del.gif', 'width' => 16, 'alt' => 'del', 'title' => 'ลบ');
 					
 					echo '<div class=\'dataRow\'>';
 					echo '<div class=\'left\'>'.$subCategory->subTypeName.'</div>';
