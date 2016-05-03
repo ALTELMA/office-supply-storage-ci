@@ -19,7 +19,7 @@ class Asset extends CI_controller{
 
 	public function index(){
 
-		if($this->session->userdata('userLogData') == ''){
+		if(!$this->session->userdata('userLogData')){
 			$data['title'] = 'ระบบฐานข้อมูลครุภัณฑ์และทรัพย์สินในสำนักงาน';
 			$this->load->view('login', $data);
 		}else{

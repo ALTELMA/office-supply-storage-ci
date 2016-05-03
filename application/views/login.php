@@ -22,9 +22,9 @@ echo link_tag($coreCSS);
 
 // FAVICON
 $favicon = array(
-		'href' => 'assets/images/icons/favicon.ico',
+		'href' => 'assets/img/icons/favicon.ico',
 		'rel' => 'shortcut icon'
-		); 
+		);
 echo link_tag($favicon);
 ?>
 </head>

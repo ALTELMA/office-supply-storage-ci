@@ -2,7 +2,7 @@
 
 class User extends CI_Controller{
 
-	public function __construct(){
+	public function __construct() {
 
 		parent::__construct();
 
@@ -15,7 +15,7 @@ class User extends CI_Controller{
 	}
 
 	// CHECK USER LOGIN
-	public function verifylogin(){
+	public function verifylogin() {
 
 		// SETUP VARIABLE
 		$username = mysql_real_escape_string($this->input->post('txt_username'));
@@ -37,9 +37,9 @@ class User extends CI_Controller{
 
 			// SETUP SESSION
 			$this->session->set_userdata('userLogData', $sess_array);
-			redirect('asset', 'refresh');
+			redirect('asset/page', 'refresh');
 		}else{
-			redirect('asset', 'refresh');
+			redirect('asset/page', 'refresh');
 		}
 	}
 

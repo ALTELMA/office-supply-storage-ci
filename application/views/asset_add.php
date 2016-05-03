@@ -1,8 +1,8 @@
-<div id="content">    
+<div id="content">
     <div class="pageHeader">
     	<div><h3 class="header"><?php echo ':: '.$title.' ::';?></h3></div>
     </div>
-        
+
     <!-- DATA FORM ADD -->
     <div class="formData">
     	<form method="POST" enctype="multipart/form-data" action="<?php base_url().'asset/add'?>">
