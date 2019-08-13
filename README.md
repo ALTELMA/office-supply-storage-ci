@@ -1,5 +1,8 @@
 # Office Supply Storage System
 
+## Deprecated
+Please go to a new version https://github.com/ALTELMA/office-supply-storage-ci3
+
 Application for store company equipment, develops base on codeigniter 2.13
 
 - Add / Edit / Delete asset
